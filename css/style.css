@@ -182,9 +182,9 @@ h1 {
 }
 
 .slider-track img {
-  flex: 0 0 33.33vw;
+  flex: 0 0 30vw;
   height: 100%;
-  width: 33.3%;
+  width: 30%;
   object-fit: cover;
   scroll-snap-align: start;
   user-select: none;
@@ -209,7 +209,7 @@ h1 {
 
 .project-first {
   padding-left: 2rem;
-  width: (66.6vw - 2rem);
+  width: (60vw - 2rem);
   margin: 0;
 }
 
@@ -219,7 +219,7 @@ h1 {
 
 .project {
   display: grid;
-  width: 66.6vw;
+  width: 60vw;
   padding-right: 1rem;
   grid-template-columns: 11.1% 1fr;
   gap: 1rem;
@@ -347,6 +347,10 @@ footer p:nth-child(4) {
     margin-bottom: 3dvh;
   }
 
+  .more-btn{
+    margin-bottom: 3dvh;
+  }
+
   .project-descriptions.visible {
     top: 81%;
   }
@@ -384,7 +388,7 @@ footer p:nth-child(4) {
     }
 
     .slider-scroll-container img {
-      width: 100vw;
+      width: 90vw;
     }
 
     .slider-wrapper.active {
@@ -392,7 +396,7 @@ footer p:nth-child(4) {
     }
 
     .project {
-      width: 200vw;
+      width: 180vw;
       grid-template-columns: 30% 1fr;
       gap: 1rem;
     }
