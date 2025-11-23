@@ -89,3 +89,18 @@ sliderScroll.addEventListener("mousemove", (e) => {
 document.querySelectorAll(".slider-scroll-container img").forEach((img) => {
   img.draggable = false;
 });
+
+// Set initial carousel position on page load
+window.addEventListener("load", () => {
+  let initialOffset;
+
+  if (window.innerWidth <= 768) {
+    // Mobile / tablet
+    initialOffset = 40;
+  } else {
+    // Desktop
+    initialOffset = 100;
+  }
+
+  sliderScroll.scrollLeft = initialOffset;
+});
