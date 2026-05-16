@@ -193,6 +193,12 @@ h1 {
   pointer-events: all; /* ensure pointer events still reach JS */
 }
 
+.slider-track video {
+   height: 100%;
+  width: 33.3%;
+  object-fit: cover;
+  flex: 0 0 33.3vw;
+}
 /* ---------------- PROJECT DESCRIPTIONS ---------------- */
 .project-descriptions {
   width: 100%;
@@ -388,6 +394,10 @@ footer p:nth-child(4) {
     }
 
     .slider-scroll-container img {
+      width: 100vw;
+    }
+
+     .slider-scroll-container video {
       width: 100vw;
     }
 
